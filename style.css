@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #111;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: #0ff;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 40px;
+}
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.plan {
+  background-color: #222;
+  padding: 10px;
+  border: 1px solid #0ff;
+  border-radius: 8px;
+}
+.upi-qr {
+  margin-top: 20px;
+  max-width: 200px;
+}
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 10px;
+}
